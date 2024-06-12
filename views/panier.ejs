@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pepepizza</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://bootswatch.com/5/lux/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="/styles/panier.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="/scripts/panier.js"></script>
+    </head>
+    <body>
+        <nav id="navinav" class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Pepepizza</a>
+
+                    <button class="nav-toggle" type="button" 
+                    data-toggle="collapse" data-target="#overridej" 
+                    aria-controls="overridej" aria-expanded="false">
+                    </button>
+
+                <ul class="navbar-nav" id="overridej" data-visible="false">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pizzas">Pizzas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bi-person-circle" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bi-cart" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <div class="basket">
+              <div class="basket-labels">
+                <ul>
+                  <li class="item item-heading">Item</li>
+                  <li class="price">Prix</li>
+                  <li class="quantity">Quantité</li>
+                  <li class="subtotal">Sous-total</li>
+                </ul>
+              </div>
+              <div class="item-container"></div>
+            </div>
+            <aside>
+              <div class="summary">
+                <div class="summary-total-items"><span class="total-items"></span> Items dans votre panier</div>
+                <div class="summary-subtotal">
+                  <div class="subtotal-title">Sous-total</div>
+                  <div class="subtotal-value final-value" id="basket-subtotal"></div>
+                </div>
+                <div class="summary-total">
+                  <div class="total-title">Total</div>
+                  <div class="total-value final-value" id="basket-total"></div>
+                </div>
+                <div class="summary-checkout">
+                  <button class="checkout-cta">Commander</button>
+                </div>
+                <div class="empty-basket">
+                  <button class="empty-btn">Vider le panier</button>
+                </div>
+              </div>
+            </aside>
+          </main>
+
+
+
+        
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pepepizza</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://bootswatch.com/5/lux/bootstrap.min.css"
+        />
+        <link rel="stylesheet" href="/styles/style.css" />
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
+        <script src="/scripts/register.js"></script>
+    </head>
+    <body>
+        <nav id="navinav" class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Pepepizza</a>
+
+                <button
+                    class="nav-toggle"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#overridej"
+                    aria-controls="overridej"
+                    aria-expanded="false"
+                ></button>
+
+                <ul class="navbar-nav" id="overridej" data-visible="false">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pizzas">Pizzas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bi-person-circle" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link bi-cart" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Register form : email, password, password confirmation, address, postal code, phone number -->
+        <!-- POST to /register -->
+        <div class="container-main lyt" id="main">
+            <div class="container-img">
+                <img src="" alt="" id="highlight-image" />
+            </div>
+
+            <div class="container-text">
+                <form action="/register" method="POST" id="form">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input
+                            type="email"
+                            class="form-control"
+                            id="email"
+                            name="email"
+                            placeholder="Email"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Mot de passe</label>
+                        <input
+                            type="password"
+                            class="form-control"
+                            id="password"
+                            name="password"
+                            placeholder="Mot de passe"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="password_confirmation"
+                            >Confirmation du mot de passe</label
+                        >
+                        <input
+                            type="password"
+                            class="form-control"
+                            id="password_confirmation"
+                            name="password_confirmation"
+                            placeholder="Confirmation du mot de passe"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Adresse</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="address"
+                            name="address"
+                            placeholder="Adresse"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="postal_code">Code postal</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="postal_code"
+                            name="postal_code"
+                            placeholder="Code postal"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Numéro de téléphone</label>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="phone"
+                            name="phone"
+                            placeholder="Numéro de téléphone"
+                        />
+                    </div>
+                    <button id="submit" type="submit" class="btn btn-primary">
+                        S'inscrire
+                    </button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+bollywood : sauce curry, mozarella, crème fraiche, poulet, oignons, poivrons		5+15+5+5 = M : 69 / L : 89 / XL : 109
+indienne : sauce curry, mozzarella, viande hachée, poulet tikka, maïs			15+15+5 = M : 74 / L : 94 / XL : 114
+miel : miel, mozzarella, crème fraîche, dinde, merguez, poivrons 				15+15+5 = M : 74 / L : 94 / XL : 114
+la boursin : boursin, mozzarella, crème fraîche, poulet, champignons			5+5+15+5 = M : 69 / L : 89 / XL : 109
+pimento : sauce chili thaï, mozzarella, poulet, chorizo, piment rouge, olives		15+15+5+5 = M : 79 / L : 99 / XL : 119
+antillaise : sauce columbo, mozzarella, viande hachée, poulet, champignons, olives	15+15+5+5 = M : 79 / L : 99 / XL : 119
+américaine : sauce américaine, mozzarella, viande hachée, boursin, poivrons		15+5+5 = M : 64 / L : 84 / XL : 104
+buffalo : sauce barbecue, mozzarella, poivrons, viande hachée, oignons			5+15+5 = M : 64 / L : 84 / XL : 104
+
+ingrédients custom :			sauces :	 					bases :			fromage :
+	- viande hachée	15			- sauce curry 2,5					- tomate			- mozzarella
+	- crème fraîche	5			- sauce chili thaï 2,5				- crème			- emmental
+	- poulet		15			- sauce columbo 2,5
+	- poulet tikka	15			- sauce américaine 2,5							menu :
+	- poivrons		5			- sauce barbecue 2,5								- Menu S 1 pizza M, 1 entrée x2, 1 boisson 33cl
+	- chorizo		15			- miel 2,5										- Menu M 1 pizza M, 1 entrée x4, 1 boisson 50cl
+	- boursin		5														- Menu L 1 pizza L, 2 entrées x2, 1 boisson 1L
+	- miel		5														- Menu XL 2 pizzas L, 2 entrées x4, 1 boisson 1.5L
+	- piment rouge	5		entrées :											- Menu XXL 2 pizzas XL, 4 entrées x6, 2 boissons 1.5L
+	- olives		5			- nuggets x2/4/6  			boissons :	
+	- ananas		5			- wings x2/4/6					- fanta 33cl : 15 / 50cl : 20 / 1L : 25 / 1.5L : 30
+	- champignons	5			- mozza sticks x2/4/6				- sprite 33cl : 15 / 50cl : 20 / 1L : 25 / 1.5L : 30
+	- anchois		15			- chevre sticks x2/4/6				- coca 33cl : 15 / 50cl : 20 / 1L : 25 / 1.5L : 30
+	- maïs		5			- tenders x2/4/6
+	- dinde		15
+	- merguez		15
+	- oignons		5
+
+base : base + fromage + sauce (sauce non obligatoire) M : 39 / L : 59 / XL : 79 
+
+ingrédients gratuits sont les ingrédients de la base -> les clients choissisent ces 3 ingrédients
+
